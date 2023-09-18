@@ -1,0 +1,81 @@
+body{
+    background-image: url(beans.jpg);  /*img of the background, on my pc */  
+    padding: 20px;  /*still figureing out this padding compared to the others,
+    it confuses me*/  
+    font-family: sans-serif;
+}
+
+h1{
+font-size:40px;
+margin-top:5px; /*gets rid of the extra padding space on the top*/
+margin-bottom:5px;
+
+}
+
+h2 {
+    font-size: 30px;
+  }
+
+  h1,h2{
+    font-family: impact,sans-serif
+  }
+
+
+.menu{
+    background-color: burlywood;
+    margin-left:auto; /*centers the whole menu/padding*/
+    margin-right:auto;/*centers the whole menu/padding*/
+    padding: 40px; /*determines padding thickness*/
+    max-width: 500px; /*max size for large/wide screens*/
+/*keep messing with this for learning purposes*/ width:80%; /*width i guess*/
+    }
+
+hr{
+
+    height:2px; /*necessary to make the bar thick looking*/
+    background-color: brown;
+    border-color:brown;
+}
+
+h1,h2,p{
+    text-align: center; /*centers the heading texts*/
+}
+
+.item p {
+    display:inline-block; /*puts the flavor and the price on the same line*/ 
+    font-size:20px; /*font for <p> texts listed under the item class*/
+   
+}
+
+.price{
+    text-align: right; /*tells the text where to go*/
+    width:25%; /*controls how far right to the corner the price goes*/
+}
+
+.flavor{
+    text-align:left; /*makes the flavor text(s) stay to the left*/
+    width:75%;/*i think this controls the space between flavor and price*/ 
+}
+
+img{
+    display:block; /*still figuring this out, but it makes it center*/
+    margin-left:auto; /*centers the img*/
+    margin-right:auto;/*centers the img*/
+}
+
+.visit a{
+    color:black;   /*link color untouched*/  
+}
+
+.visit a:hover{  /*link color hovered on*/  
+    color:black;
+    color:brown;
+}
+
+.established{ 
+    font-style:italic;
+}
+
+.address{
+    margin-bottom:5px; /*gets rid of that ugly extra padding space on the bottom*/
+}
